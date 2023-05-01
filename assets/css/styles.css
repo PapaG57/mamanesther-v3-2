@@ -36,6 +36,18 @@ body {
 				/****** PAGE CONSTRUCTION ******/
 /*------------------------------------------------------*/
 
+.body-construction {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: 'Alberta Stencil', sans-serif;
+	background-color: #fff;
+	background-image: url(/assets/);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .under_construction {
 	background: ;
 }
