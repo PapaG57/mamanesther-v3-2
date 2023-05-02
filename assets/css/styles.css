@@ -42,15 +42,48 @@ body {
 	height: 100vh;
 	font-family: 'Alberta Stencil', sans-serif;
 	background-color: #fff;
-	background-image: url(/assets/);
+	background-image: url(../img/under-construction/under-construction.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .under_construction {
-	background: ;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 300px;
 }
+
+.img_under_contruction {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+}
+
+.img-construction {
+	width: 150px;
+	height: 150px;
+}
+
+.joindre-construction {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #e1e1e1;
+	width: 600px;
+	height: 100px;
+}
+
+.mailto {
+	color: #000;
+	text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+.mailto:hover {
+	color: #0ebcf1;
+}
+
 
 /*------------------------------------------------------*/
 				/******* HEADER ******/
