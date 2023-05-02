@@ -40,8 +40,6 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
-	font-family: 'Alberta Stencil', sans-serif;
-	background-color: #fff;
 	background-image: url(../img/under-construction/under-construction.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -52,7 +50,7 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding-top: 300px;
+	padding-top: 130px;
 }
 
 .img_under_contruction {
@@ -64,6 +62,24 @@ body {
 .img-construction {
 	width: 150px;
 	height: 150px;
+	border-radius: 10px;
+}
+
+.h1-construction {
+	font-family: 'Allerta Stencil', sans-serif;
+	color: #0ebcf1;
+	transform:scaleY(2);
+	font-size: 5rem;
+	font-weight: 700;
+	text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+
+.p-construction {
+	color: #0ebcf1;
+	font-size: 1.2rem;
+	font-weight: 700;
+	letter-spacing: 10px;
+	transform:scaleY(2);
 }
 
 .joindre-construction {
@@ -83,6 +99,7 @@ body {
 .mailto:hover {
 	color: #0ebcf1;
 }
+
 
 
 /*------------------------------------------------------*/
