@@ -15,20 +15,17 @@ body {
 }
 
 .header-titre {
-	width: 1200px;
-	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 100px;
 	background-color: #fff;
-	box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
-	text-align: center;
-	padding: 5px;
-	margin: auto;
-	border-radius: 5px;
-	border: solid 1px;
 }
 
 .header-titre h1 {
     font-family: 'Allerta Stencil', sans-serif;
-	font-size: 30px;
+	font-size: 2.5rem;
 	color: #0ebcf1;
 }
 
