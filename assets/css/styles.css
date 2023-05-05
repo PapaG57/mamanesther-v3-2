@@ -947,9 +947,10 @@ a {
 }
 
 /*------------------------------------------------------*/
-			/******* SECTION DIOPORAMA ******/
+				/****** PAGE TEAM ******/
 /*------------------------------------------------------*/
 
+			/******* SECTION DIOPORAMA ******/
 .diaporama {
 	height: 200vh;
 	margin-top: 130px;
@@ -957,39 +958,31 @@ a {
 
 .all-diapo {
 	display: flex;
-	/* justify-content: center; */
+	/* justify-content: space-evenly; */
 	align-items: center;
 	gap: 30px;
-	margin: 0 30px 0 30px;
+	margin: 60px 20px 40px 20px;
 }
 
-.content-diapo {
-	margin-top: 60px;
-}
-
-.content-card-team {
+.content-card-diapo {
 	width: 350px;
-    height: 300px;
-	box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
-.card-news-diapo {
-	height: 80px;
-    background-color: #fff;
-    padding: 7px;
-    border-radius: 0 0 5px 5px;
+.content-image {
+	height: 380px;
 }
 
-.card-news-diapo h6 {
+.content-news {
+	height: 150px;
+    background-color: #fafafa;
+}
+
+.content-news h6 {
 	font-weight: 700;
 	padding-top: 7px;
 }
 
-.card-news-diapo p {
+.content-news p {
 	padding: 10px;
 }
 
-
-/*------------------------------------------------------*/
-				/****** PAGE TEAM ******/
-/*------------------------------------------------------*/
