@@ -20,7 +20,7 @@ body {
 	align-items: center;
 	width: auto;
 	height: 100px;
-	background-color: #fff;
+	background-color: #fafafa;
 }
 
 .header-titre h1 {
@@ -202,7 +202,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 /*------------------------------------------------------*/
@@ -251,13 +251,11 @@ nav ul li a:hover {
     flex-direction: column;
     gap: 15px;
     width: 50%;
-	background-color: #fff;
+	background-color: #fafafa;
     padding: 8px;
-    border-radius: 5px;
 }
 
 .img-debre {
-	border-radius: 5px;
 	width: 120px;
 }
 
@@ -293,7 +291,7 @@ nav ul li a:hover {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 2rem;
 	font-weight: bold;
-    background-color: #fff;
+    background-color: #fafafa;
     color: #0ebcf1;
     height: 100px;
 	padding: 8px;
@@ -317,7 +315,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     height: 300px;
-    background-color: #e0e0e0;
+    background-color: #fafafa;
 }
 
 .img-news {
@@ -328,7 +326,7 @@ nav ul li a:hover {
 /***** CONTENT TEXTE CARTES NEWS *****/
 .card-news {
     height: 300px;
-    background-color: #fff;
+    background-color: #fafafa;
     padding: 20px;
 }
 
@@ -350,7 +348,7 @@ nav ul li a:hover {
     background: #2f7474;
     padding: 20px 22px;
     line-height: 10px;
-    color: white;
+    color: #fafafa;
     text-transform: uppercase;
     float: left;
     cursor: pointer;
@@ -400,7 +398,7 @@ nav ul li a:hover {
 .text-temoignages {
 	width: 900px;
 	height: auto;
-	background-color: #fff;
+	background-color: #fafafa;
 	border-radius: 5px;
 	border: solid 2px #ff0000;
 	padding: 20px;
@@ -455,8 +453,8 @@ a {
 	height: 310px;
 	border: 1px solid #ddd;
 	margin: 0 auto 2em;
-	background: #FFF;
-	background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+	background: #fff;
+	background: linear-gradient(#fff, #fff 20%, #eee 80%, #ddd);
 	border-radius: 2px 2px 2px 2px;
 	box-shadow: 0 0 3px #00000033;
 }
@@ -738,7 +736,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #fff;
+	background-color: #fafafa;
 	box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 	color: #0ebcf1;
 	border-radius: 100%;
@@ -761,8 +759,12 @@ a {
 	height: 80px;
 	cursor: pointer;
 	transition-duration: 0.6s;
-	background-color: #fff;
-	box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+	background-color: #fafafa;
+}
+
+.card-aligne-chiffres:hover {
+	background-color: #dfdbdb;
+	border: 0;
 }
 
 .card-chiffres-text {
