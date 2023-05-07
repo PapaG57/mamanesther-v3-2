@@ -980,6 +980,7 @@ a {
 .content-news {
 	height: 150px;
     background-color: #fafafa;
+	padding: 10px;
 }
 
 .content-news h6 {
@@ -1019,13 +1020,12 @@ a {
 	width: 200px;
 	height: 60px;
 	border: 1px solid rgba(255, 255, 255, 0.2);
-	background-color: #fff;
+	background-color: #fafafa;
 	line-height: 60px;
 	color: #000;
 	text-align: center;
 	font-size: 15px;
 	letter-spacing: 3px;
-	cursor: pointer;
 	user-select: none;
 }
 .highlight:before, .highlight:after {
