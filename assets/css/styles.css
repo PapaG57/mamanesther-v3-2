@@ -844,13 +844,17 @@ a {
 
 .fa.fa-facebook,
 .fa.fa-instagram,
-.fa.fa-linkedin {
+.fa.fa-linkedin,
+.fa.fa-whatsapp,
+.fa.fa-youtube {
 	color: #1815ce;
 }
 
 .fa.fa-facebook:hover,
 .fa.fa-instagram:hover,
-.fa.fa-linkedin:hover {
+.fa.fa-linkedin:hover,
+.fa.fa-whatsapp:hover,
+.fa.fa-youtube:hover {
 	color: #0ebcf1;
 }
 
