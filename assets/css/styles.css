@@ -954,13 +954,13 @@ a {
 				/****** PAGE TEAM ******/
 /*------------------------------------------------------*/
 
-			/******* SECTION DIOPORAMA ******/
-.diaporama {
+			/******* SECTION TROMBINOSCOPE ******/
+.trombi {
 	height: 200vh;
 	margin-top: 130px;
 }
 
-.all-diapo {
+.all-trombi {
 	display: flex;
 	/* justify-content: space-evenly; */
 	align-items: center;
@@ -968,7 +968,7 @@ a {
 	margin: 60px 20px 40px 20px;
 }
 
-.content-card-diapo {
+.content-card-trombi {
 	width: 350px;
 }
 
@@ -1074,3 +1074,10 @@ a {
 .highlight:hover:after {
 	transition: width 0.1s ease 0.2s, height 0.1s ease 0.3s, visibility 0s 0.2s;
 }
+
+		/******* REJOINDRE LA TEAM *******/
+
+.rejoins-team {
+	height: 50vh;
+}
+
