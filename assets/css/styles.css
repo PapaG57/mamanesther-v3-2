@@ -109,6 +109,7 @@ box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .mailto {
+	font-size: 1.5rem;
 	color: #0ebcf1;
 	text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
@@ -1065,7 +1066,7 @@ a {
 	transition: width 0.1s ease 0.2s, height 0.1s ease 0.3s, visibility 0s 0.2s;
 }
 
-/******* MODALE *******/
+		/******* MODALE *******/
 
 .modal {
     display: flex;
@@ -1078,16 +1079,34 @@ a {
     left: 0;
     right: 0;
 	opacity: 0;
-    background-color: rgba(46, 46, 46, 0.7);
+    background-color: rgba(12, 12, 12, 0.7);
     transition: .8s;
+	text-align: justify;
+}
+
+.modal h3 {
+	color: #0ebcf1;
+	letter-spacing: 4px;
+	margin-left: 100px;
 }
 
 .modal a {
     text-decoration: none;
-    background-color: #fafafa;
     padding: 15px;
-    text-transform: uppercase;
     color: black;
+}
+
+.img-modal {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 10px;
+}
+
+.blink {
+	background-color: yellow;
+	text-decoration: none;
+	color: #000;
+	text-decoration: blink;
 }
 
 .modal:target {
@@ -1099,7 +1118,7 @@ a {
 	position: relative;
     background-color: #fafafa;
     padding: 15px;
-    width: 500px;
+    width: 700px;
 	height: 600px;
     max-width: 90%;
 }
@@ -1109,8 +1128,10 @@ a {
     left: 45%;
     bottom: -10%;
     background-color: #0ebcf1;
+	border-radius: 5px;
     color: #fff;
     text-decoration: none;
+	font-weight: 900;
 }
 
 .modal-close:hover {
@@ -1120,7 +1141,26 @@ a {
 
 		/******* REJOINDRE LA TEAM *******/
 
+.team {
+	height: 80vh;
+}
+
+.align-team {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .rejoins-team {
-	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 60px;
+	background-color: #fafafa;
+	width: 600px;
+	height: 250px;
+	padding: 15px;
+	box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 

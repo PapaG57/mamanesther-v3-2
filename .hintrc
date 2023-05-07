@@ -25,7 +25,8 @@
       "default",
       {
         "ignore": [
-          "user-select"
+          "user-select",
+          "text-decoration: blink"
         ]
       }
     ],
