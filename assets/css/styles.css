@@ -957,16 +957,24 @@ a {
 
 			/******* SECTION TROMBINOSCOPE ******/
 .trombi {
-	height: 200vh;
+	height: 170vh;
 	margin-top: 130px;
 }
 
 .all-trombi {
 	display: flex;
-	/* justify-content: space-evenly; */
+	flex-direction: column;
 	align-items: center;
 	gap: 30px;
-	margin: 60px 20px 40px 20px;
+	margin: 35px;
+}
+
+.trombi-ligne-1,
+.trombi-ligne-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 35px;
 }
 
 .content-card-trombi {
@@ -1159,6 +1167,7 @@ a {
 	flex-direction: column;
 	margin-top: 60px;
 	background-color: #fafafa;
+	text-align: justify;
 	width: 600px;
 	height: 250px;
 	padding: 15px;
