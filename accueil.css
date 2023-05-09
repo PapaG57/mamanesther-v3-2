@@ -1,6 +1,9 @@
-.index {
-	margin: 0;
+* {
+    margin: 0;
 	padding: 0;
+}
+
+.index {
 	height: 97vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,
 	0,
@@ -152,7 +155,7 @@
 
 .french-flag {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 10%;
 }
 
@@ -163,7 +166,7 @@
 
 .p-french {
     position: absolute;
-    top: -100%;
+    top: -70%;
     color: #fff;
     font-size: 1.2rem;
     text-align: center;
@@ -171,7 +174,7 @@
 
 .p-english {
     position: absolute;
-    top: 75%;
+    top: 100%;
     color: #fff;
     font-size: 1.2rem;
     text-align: center;
@@ -179,13 +182,13 @@
 
 .english-flag {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 85%;
 }
 
 .p-flag-french {
     position: absolute;
-    top: -100%;
+    top: -70%;
     color: #fff;
     font-size: 1.2rem;
     text-align: center;
@@ -193,7 +196,7 @@
 
 .p-flag-english {
     position: absolute;
-    top: 75%;
+    top: 100%;
     color: #fff;
     font-size: 1.2rem;
     text-align: center;
