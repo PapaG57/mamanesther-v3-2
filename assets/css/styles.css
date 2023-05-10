@@ -29,6 +29,19 @@ body {
 	color: #0ebcf1;
 }
 
+.logo-page-courante {
+	filter: opacity(0.4) drop-shadow(0 0 0 red); 
+	width: 60px;
+    height: 60px;
+    margin-right: 50px;
+}
+
+.page-courante {
+	color: #9e026f;
+	font-size: 1.4rem;
+	font-weight: 900;
+}
+
 /*------------------------------------------------------*/
 				/****** PAGE CONSTRUCTION ******/
 /*------------------------------------------------------*/
@@ -157,6 +170,12 @@ header {
     z-index: 10;
 }
 
+.header-flag {
+	width: 30px;
+    height: 30px;
+	margin-right: 60px;
+}
+
 .logo-asso {
     width: 60px;
     height: 60px;
@@ -166,6 +185,7 @@ header {
 .logo-asso:hover {
     transform: scale(1.2);
     transition-duration: .5s;
+	cursor: pointer;
 }
 
 nav {
