@@ -946,7 +946,7 @@ nav ul li a:hover {
 
 .projets {
 	height: 220vh;
-	margin: 100px 0 0 0;
+	margin-top: 100px;
 }
 
 .content-projet {
@@ -985,3 +985,25 @@ nav ul li a:hover {
 				/****** PAGE NOUVELLES ******/
 /*------------------------------------------------------*/
 
+
+
+/*------------------------------------------------------*/
+				/****** PAGE NOUVELLES ******/
+/*------------------------------------------------------*/
+
+.bilan {
+	height: 200vh;
+	margin-top: 100px;
+}
+
+.content-bilan {
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	margin-top: 40px;
+
+}
+
+.content-card-bilan {
+	background-color: #fafafa;
+}
