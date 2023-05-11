@@ -29,19 +29,6 @@ body {
 	color: #0ebcf1;
 }
 
-.logo-page-courante {
-	filter: opacity(0.4) drop-shadow(0 0 0 red); 
-	width: 60px;
-    height: 60px;
-    margin-right: 50px;
-}
-
-.page-courante {
-	color: #9e026f;
-	font-size: 1.4rem;
-	font-weight: 900;
-}
-
 /*------------------------------------------------------*/
 				/****** PAGE CONSTRUCTION ******/
 /*------------------------------------------------------*/
@@ -187,6 +174,20 @@ header {
     transition-duration: .5s;
 	cursor: pointer;
 }
+
+.logo-page-courante {
+	filter: opacity(1) drop-shadow(0 0 0 red); 
+	width: 60px;
+    height: 60px;
+    margin-right: 50px;
+}
+
+.page-courante {
+	color: #9e026f;
+	font-size: 1.4rem;
+	font-weight: 900;
+}
+
 
 nav {
     display: flex;
@@ -1190,5 +1191,62 @@ a {
 	height: 250px;
 	padding: 15px;
 	box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+
+/*------------------------------------------------------*/
+				/****** PAGE PROJETS ******/
+/*------------------------------------------------------*/
+
+.projets {
+	height: 150vh;
+	margin: 100px 0 0 0;
+}
+
+.content-projet {
+	margin-bottom: 40px;
+}
+
+.card-projet {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+	width: 1100px;
+	height: 565px;
+	background-color: #fafafa;
+	margin: 20px;
+}
+
+.text-projet {
+	text-align: justify;
+}
+
+/******* FIGCATION IMG *******/
+
+figure {
+    border: thin #c0c0c0 solid;
+    padding: 10px;
+    max-width: 625px;
+    margin: auto;
+}
+
+.img-projet1 {
+    width: 600px;
+    height: 500px;
+}
+
+figcaption {
+    background-color: #4d4949;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+/******* PROJETS RéALISéS *******/
+
+.content-projet-2 {
+	margin: 20px;
+	height: ;
 }
 
