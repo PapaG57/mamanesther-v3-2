@@ -1198,7 +1198,7 @@ a {
 /*------------------------------------------------------*/
 
 .projets {
-	height: 150vh;
+	height: 220vh;
 	margin: 100px 0 0 0;
 }
 
@@ -1214,7 +1214,7 @@ a {
 	width: 1100px;
 	height: 565px;
 	background-color: #fafafa;
-	margin: 20px;
+	margin: 40px 20px 40px 20px;
 }
 
 .text-projet {
