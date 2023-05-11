@@ -29,6 +29,22 @@ body {
 	color: #0ebcf1;
 }
 
+figure {
+    border: thin #696969 solid;
+    padding: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #7a6969;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
 /*------------------------------------------------------*/
 				/****** PAGE CONSTRUCTION ******/
 /*------------------------------------------------------*/
@@ -417,7 +433,7 @@ nav ul li a:hover {
     margin-top: 150px;
 }
 
-.text-temoignages {
+.content-temoignages {
 	width: 900px;
 	height: auto;
 	background-color: #fafafa;
@@ -436,294 +452,21 @@ nav ul li a:hover {
 	text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
-/******* CAROUSSEL TéMOIGNAGES ******/
+/******* CONTENT CARD TEMOIN *******/
 
-/*
-	Juizy Slideshow
-	@author: Geoffrey Crofte
-	@date: 2011-12-07
-	@from: self work http://creativejuiz.fr/trytotry
-	@license: CreativeCommons (BY)
-	
-	************* Changelog *************
-	
-	** v.1.1.1 - 2012-02-27
-	- Figcaption element hidden when you take the control
-	
-	** v.1.1.0 - 2011-12-31
-	- Caption of figure (figcaption element) display improvement
-	
-	** v.1.0.0 - 2011-12-07
-	- First version
-*/
-
-figure { 
-	display: inline-block; 
+.content-card-temoin {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 40px;
 }
 
-a {
-	text-decoration: none;
+.img-temoin {
+	width: 400px;
+	height: 250px;
 }
 
-.center {
-	text-align: center;
-}
+.content-card-temoin {
 
-#slideshow {
-	position: relative;
-	width: 642px;
-	height: 310px;
-	border: 1px solid #ddd;
-	margin: 0 auto 2em;
-	background: #fff;
-	background: linear-gradient(#fff, #fff 20%, #eee 80%, #ddd);
-	border-radius: 2px 2px 2px 2px;
-	box-shadow: 0 0 3px #00000033;
-}
-
-/* avanced box-shadow : http://www.creativejuiz.fr/blog/les-tutoriels/ombre-avancees-avec-css3-et-box-shadow */
-
-#slideshow:before,
-#slideshow:after {
-	position: absolute;
-	display:block;
-	bottom:16px;
-	width: 50%;
-	height: 20px;
-	content: " ";
-	background: #0000001a;
-	border-radius: 50%;
-	z-index: -10;
-}
-
-#slideshow:before {
-	left:0;
-	transform: rotate(-4deg);
-}
-
-#slideshow:after {
-	right:0;
-	transform: rotate(4deg);
-}
-
-#slideshow .commands {
-	position: absolute;
-	top: 45%;
-	padding: 5px 13px;
-	border-bottom:0;
-	font-family: 'Amaranth', Arial, Verdana, sans-serif;
-	font-size: 1.3em;
-	color: #aaa;
-	text-decoration:none;
-	background-color: #eee;
-	background-image: linear-gradient(#fff,#ddd);
-	text-shadow: 0 0 1px #aaa;
-	border-radius: 50%;
-	box-shadow: 1px 1px 2px #00000033;
-}
-
-#slideshow .commands:after {
-	position: absolute;
-	bottom: 65px; left:-18px;
-	content: attr(title);
-	width: 50px;
-	padding: 12px;
-	background: #fff;
-	font-family: 'Valera Round' serif;
-	font-size: 14px;
-	text-align:center;
-	text-shadow: 0 0 0;
-	opacity: 0;
-	border-radius: 12px;
-	box-shadow: 1px 1px 4px #00000066;
-	transition: opacity 0.7s, bottom 0.7s;
-}
-
-#slideshow .commands:before {
-	position: absolute;
-	bottom: 55px; left: 13px;
-	content: " ";
-	width: 1px; height: 1px;
-	border-top: 10px solid #fff;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	z-index:100;
-	opacity: 0;
-	transition: opacity 0.7s, bottom 0.7s;
-}
-
-#slideshow .commands:hover:before {
-	bottom: 35px;
-	opacity: 1;
-}
-
-#slideshow .commands:hover:after {
-	bottom: 45px;
-	opacity: 1;
-}
-
-#slideshow .commands:focus { 
-	outline: 0;
-	transform: translate(1px, 2px);
-}
-
-#slideshow .commands:active {
-	transform: translate(0, 1px);
-}
-
-#slideshow .prev {
-	left: -48px;
-}
-
-#slideshow .next {
-	right: -48px;
-}
-
-#slideshow .prev,
-#slideshow .next {
-	display:none;
-}
-
-#slideshow .prev,
-#slideshow .next {
-	display:none;
-}
-
-#slideshow .commands1 {
-	display: block;
-}
-
-#slideshow .container {
-	position:relative;
-	width: 642px;
-	height: 310px;
-	overflow: hidden;
-}
-
-/* timeline base */
-#slideshow .container:after {
-	position:absolute;
-	bottom: 0; left:0;
-	content: " ";
-	background: #999;
-	width: 100%;
-	height: 1px;
-}
-
-@keyframes slider {
-	0%, 20%, 100%	{ left: 0 }
-	25%, 45%		{ left: -100% }
-	50%, 70%		{ left: -200% }
-	75%, 95%		{ left: -300% }
-}
-
-#slideshow .slider {
-	position: absolute;
-	left:0; top:0;
-	width: 400%;
-	height: 310px;
-	animation: slider 32s infinite;
-}
-
-.sl_i:target ~ #slideshow .slider {
-	transition: left 1s;
-}
-
-.sl_command:target ~ #slideshow .slider {
-	transition: opacity 1s;
-}
-
-#slideshow .c_slider {
-	position: absolute;
-	left:0; top:0;
-	width: 400%;
-	height: 310px;
-	background: url(../img/caroussel/florent-gerard.webp) 0 0 no-repeat, url(../img/caroussel/esther-gerard.webp) 640px 0 no-repeat, url(../img/caroussel/paul-martin.webp) 1280px 0 no-repeat, url(../img/caroussel/pierre-dupont.webp) 1920px 0 no-repeat;
-}
-
-.sl_i:target ~ #slideshow .c_slider {
-	transition: background 1s;
-}
-
-#slideshow figure {
-	position:relative;
-	padding:0; margin:0;
-}
-
-@keyframes figurer {
-	0%, 25%, 50%, 75%, 100%						{ -moz-box-shadow: 0 0 65px #00000000 inset; box-shadow: 0 0 65px #00000000 inset;   }
-	5%, 20%, 30%, 45%, 55%, 70%, 80%, 95%		{ -moz-box-shadow: 0 0 65px #00000080 inset;	box-shadow: 0 0 65px #00000080 inset; }
-}
-
-#slideshow figure:after {
-	position: absolute;
-	display:block;
-	content: " ";
-	top:0; left:0;
-	width: 100%; height: 100%;
-	box-shadow: 0 0 65px #00000080 inset;
-	animation: figurer 32s infinite;
-}
-
-
-@keyframes figcaptionner {
-	0%, 25%, 50%, 75%, 100%						{ bottom: -55px;	}
-	5%, 20%, 30%, 45%, 55%, 70%, 80%, 95%		{ bottom: 5px;		}
-}
-
-#slideshow figcaption {
-	position:absolute;
-	padding: 0 20px; margin:0;
-	left:0; right:0; bottom: 0px;
-	text-align:center;
-	letter-spacing: 0.05em;
-	word-spacing: 0.05em;
-	font-family: Georgia, Times, serif;
-	background: hsl(0, 0%, 0%);
-	background: #ffffffb3;
-	border-top: 1px solid #e1e1e1;
-	color: #555;
-	text-shadow: -1px -1px 0 #ffffff4d;
-	animation: figcaptionner 32s infinite;
-}
-
-@keyframes timeliner {
-	0%, 25%, 50%, 75%, 100%	{ width: 0;		}
-	20%, 45%, 70%, 90%		{ width: 640px;	}
-}
-
-@keyframes dotser {
-	0%, 100% 	{ opacity: 1; left: 0; 		}
-	
-	20%			{ opacity: 1; left: 0;		}
-	22%			{ opacity: 0; left: 0;		}
-	23%			{ opacity: 0; left: 18px;	}
-	25%			{ opacity: 1; left: 18px;	}
-	
-	45%			{ opacity: 1; left: 18px;	}
-	47%			{ opacity: 0; left: 18px;	}
-	48%			{ opacity: 0; left: 36px;	}
-	50%			{ opacity: 1; left: 36px;	}
-	
-	70%			{ opacity: 1; left: 36px;	}
-	72%			{ opacity: 0; left: 36px;	}
-	73%			{ opacity: 0; left: 54px;	}
-	75%			{ opacity: 1; left: 54px;	}
-	
-	95%			{ opacity: 1; left: 54px;	}
-	97%			{ opacity: 0; left: 54px;	}
-	98%			{ opacity: 0; left: 0;	}
-}
-
-/* EXPLANATIONS */
-
-@keyframes downloader {
-	0% { top:5px; }
-	45% { top:60px; }
-	49% { opacity: 0; }
-	50% { top: -60px; }
-	51% { opacity: 1; }
-	100% { top:5px; color: #cbbfb5; text-shadow: 1px 1px #777; background: #ffffff1a; border-color: #ffffff80; }
 }
 
 /*------------------------------------------------------*/
@@ -1223,30 +966,18 @@ a {
 
 /******* FIGCATION IMG *******/
 
-figure {
-    border: thin #c0c0c0 solid;
-    padding: 10px;
-    max-width: 625px;
-    margin: auto;
-}
-
 .img-projet1 {
-    width: 600px;
+    max-width: 480px;
     height: 500px;
-}
-
-figcaption {
-    background-color: #4d4949;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
 }
 
 /******* PROJETS RéALISéS *******/
 
 .content-projet-2 {
 	margin: 20px;
-	height: ;
 }
+
+/*------------------------------------------------------*/
+				/****** PAGE NOUVELLES ******/
+/*------------------------------------------------------*/
 
