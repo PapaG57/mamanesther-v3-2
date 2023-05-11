@@ -45,6 +45,9 @@ figcaption {
     text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
 
 /*------------------------------------------------------*/
 				/****** PAGE CONSTRUCTION ******/
@@ -509,6 +512,7 @@ nav ul li a:hover {
 	min-height: 3.5rem;
 	min-width: 3.5rem;
 	margin: -20px;
+	text-decoration: none;
 }
 
 .card-aligne-chiffres {
