@@ -30,6 +30,7 @@ body {
 }
 
 figure {
+	background-color: #fafafa;
     border: thin #696969 solid;
     padding: 10px;
     max-width: 500px;
@@ -125,6 +126,7 @@ box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
 
 .mailto {
+	text-decoration: none;
 	font-size: 1.5rem;
 	color: #0ebcf1;
 	text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
@@ -318,7 +320,7 @@ nav ul li a:hover {
 /*------------------------------------------------------*/
 
 .news {
-    height: 720px;
+    height: 110vh;
 }
 
 /***** BANDEAU TITRE NOUVELLES  ET TéMOIGNAGES *****/
@@ -429,8 +431,7 @@ nav ul li a:hover {
 /*------------------------------------------------------*/
 
 .temoignages {
-    height: 700px;
-    margin-top: 150px;
+    height: 160vh;
 }
 
 .content-temoignages {
@@ -441,13 +442,13 @@ nav ul li a:hover {
 	border: solid 2px #ff0000;
 	padding: 20px;
 	margin: auto;
-	margin-top: 60px;
-	margin-bottom: 40px;
+	margin-top: 50px;
+	margin-bottom: 60px;
 	text-align: center;
 	box-shadow: 0 0 3px #00000066, 0 20px 10px #000000b3;
 }
 
-.text-temoignages h4 {
+.content-temoignages h4 {
 	color: #0ebcf1;
 	text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
 }
@@ -456,17 +457,16 @@ nav ul li a:hover {
 
 .content-card-temoin {
 	display: flex;
-	justify-content: space-evenly;
-	gap: 40px;
 }
 
 .img-temoin {
-	width: 400px;
-	height: 250px;
+    max-width: 478px;
+    max-height: 250px;
 }
 
-.content-card-temoin {
-
+.content-card-temoin-2 {
+	margin-right: 1055px;
+	margin-top: 20px;
 }
 
 /*------------------------------------------------------*/
@@ -474,15 +474,14 @@ nav ul li a:hover {
 /*------------------------------------------------------*/
 
 .section-chiffres {
-    height: 80vh;
-    margin-top: 120px;
+    height: 85vh;
 }
 
 /******* ALLIGNEMENT CARTES CHIFFRES ******/
 .all-line {
 	display: flex;
 	flex-direction: column;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .all-card-line-1,
