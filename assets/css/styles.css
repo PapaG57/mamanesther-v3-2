@@ -545,11 +545,12 @@ nav ul li a:hover {
 }
 
 .bouton-chiffres {
-background-color: #0ebcf1;
-color: #fff;
+background-color: #d6d6d6;
+color: #000;
 border-radius: 20px;
 border: 0;
 letter-spacing: -1px;
+margin-left: 45px;
 }
 
 .bouton-chiffres:hover {
@@ -557,6 +558,78 @@ letter-spacing: -1px;
 	color: #0ebcf1;
 	border:  solid 2px #0ebcf1;
 	box-shadow: 5px 5px 5px #bebebe;
+}
+
+.modal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    position: absolute;
+    top: 400%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	opacity: 0;
+    background-color: rgba(12, 12, 12, 0.7);
+    transition: .8s;
+	text-align: justify;
+}
+
+.modal2 h3 {
+	color: #0ebcf1;
+	letter-spacing: 4px;
+	margin-left: 100px;
+}
+
+.modal2 a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+.icone-dons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	color: #0ebcf1;
+	margin-bottom: 10px;
+	border: solid 2px #0ebcf1;
+	border-radius: 50%;
+}
+
+.modal2:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal2-content {
+	position: relative;
+    background-color: #fafafa;
+	border-radius: 10px;
+	border: solid 1px #332c2c;
+    padding: 15px;
+    width: 600px;
+	height: 420px;
+    max-width: 90%;
+}
+
+.modal2-close {
+    position: absolute;
+    left: 45%;
+    bottom: -10%;
+    background-color: #0ebcf1;
+	border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+	font-weight: 900;
+}
+
+.modal2-close:hover {
+	background-color: #fafafa;
+	color: #0ebcf1;
 }
 
 /*------------------------------------------------------*/
