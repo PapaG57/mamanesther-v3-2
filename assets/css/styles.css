@@ -733,14 +733,6 @@ nav ul li a:hover {
 	margin: 35px;
 }
 
-.trombi-ligne-1,
-.trombi-ligne-2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 35px;
-}
-
 .content-card-trombi {
 	width: 350px;
 }
