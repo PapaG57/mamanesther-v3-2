@@ -520,14 +520,7 @@ nav ul li a:hover {
 	margin-bottom: 1rem;
 	width: 550px;
 	height: 80px;
-	cursor: pointer;
-	transition-duration: 0.6s;
 	background-color: #fafafa;
-}
-
-.card-aligne-chiffres:hover {
-	background-color: #dfdbdb;
-	border: 0;
 }
 
 .card-chiffres-text {
@@ -549,6 +542,21 @@ nav ul li a:hover {
 	font-size: 1.2rem;
 	color: #0ebcf1;
 	width: 210px;
+}
+
+.bouton-chiffres {
+background-color: #0ebcf1;
+color: #fff;
+border-radius: 20px;
+border: 0;
+letter-spacing: -1px;
+}
+
+.bouton-chiffres:hover {
+	background-color: #fff;
+	color: #0ebcf1;
+	border:  solid 2px #0ebcf1;
+	box-shadow: 5px 5px 5px #bebebe;
 }
 
 /*------------------------------------------------------*/
