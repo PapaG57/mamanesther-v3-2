@@ -461,6 +461,9 @@ nav ul li a:hover {
 
 .content-card-temoin {
 	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 40px;
 }
 
 .img-temoin {
