@@ -482,19 +482,12 @@ nav ul li a:hover {
 }
 
 /******* ALLIGNEMENT CARTES CHIFFRES ******/
-.all-line {
+.content-all-card {
 	display: flex;
-	flex-direction: column;
-	margin-top: 40px;
-}
-
-.all-card-line-1,
-.all-card-line-2,
-.all-card-line-3 {
-	display: flex;
-	justify-content: center;
-	gap: 40px;
-	margin-top: 40px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 60px;
 }
 
 /******* CARTES CHIFFRES ******/
@@ -522,7 +515,7 @@ nav ul li a:hover {
 	border: 2px solid #0ebcf1;
 	border-radius: 2rem;
 	margin-bottom: 1rem;
-	width: 400px;
+	width: 550px;
 	height: 80px;
 	cursor: pointer;
 	transition-duration: 0.6s;
@@ -538,6 +531,7 @@ nav ul li a:hover {
 	padding-left: 30px;
 	color: #474141;
 	font-weight: 900;
+	width: 140px;
 }
 
 .vertical-line {
@@ -548,9 +542,10 @@ nav ul li a:hover {
 }
 
 .card-chiffres-chiffres {
-	padding-left: 10px;
+	padding-left: 5px;
 	font-size: 1.2rem;
 	color: #0ebcf1;
+	width: 210px;
 }
 
 /*------------------------------------------------------*/
@@ -982,13 +977,7 @@ nav ul li a:hover {
 }
 
 /*------------------------------------------------------*/
-				/****** PAGE NOUVELLES ******/
-/*------------------------------------------------------*/
-
-
-
-/*------------------------------------------------------*/
-				/****** PAGE NOUVELLES ******/
+				/****** PAGE BILAN ******/
 /*------------------------------------------------------*/
 
 .bilan {
@@ -996,14 +985,52 @@ nav ul li a:hover {
 	margin-top: 100px;
 }
 
-.content-bilan {
-	display: flex;
-	justify-content: center;
-	align-items: end;
-	margin-top: 40px;
+.back-button-bilan {
+	position: absolute;
+	left: 40%;
+	bottom: 2%;
+	background-color: #0ebcf1;
+	padding: 20px 30px;
+	border: solid 2px #e1e1e1;
+	border-radius: 15px;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #fff;
+}
 
+.back-button-bilan:hover {
+	background-color: #fff;
+	color: #0ebcf1;
+	box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+
+.back-button-bilan:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.h4-bilan {
+	margin-top: 20px;
+	color: #fff;
+	text-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+
+.all-content-bilan-1 {
+	display: flex;
+	justify-content: start;
+	align-items: end;
+	margin: 20px 0 0 20px;
 }
 
 .content-card-bilan {
 	background-color: #fafafa;
+	width: 400px;
+}
+
+.dons {
+	padding: 15px;
+}
+
+.p-bilan {
+	text-align: justify;
 }
