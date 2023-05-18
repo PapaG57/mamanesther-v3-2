@@ -524,6 +524,7 @@ nav ul li a:hover {
 
 .card-aligne-chiffres:hover {
 	background-color: #d6d6d6;
+	box-shadow: 10px 10px 10px #7a6969;
 }
 
 .card-chiffres-text {
