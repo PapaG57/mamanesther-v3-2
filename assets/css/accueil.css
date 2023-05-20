@@ -219,8 +219,24 @@
 
 /******* IMG ANIMéES EN VIDéO *******/
 
-#myVideo {
+video {
+    width: 400px;
+}
+
+#myVideoFrench {
     display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+#myVideoEnglish {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
 }
 
 /******* LOADING SPINNER 2s *******/

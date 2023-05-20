@@ -1,5 +1,5 @@
-var playVideo = document.getElementById("playVideo");
-var video = document.getElementById("myVideo");
+var playVideo = document.getElementById("playVideoEnglish");
+var video = document.getElementById("myVideoEnglish");
 var loadingSpinner = document.getElementById("loadingSpinner");
 
 playVideo.addEventListener("click", function() {
