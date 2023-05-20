@@ -11,20 +11,28 @@
 <body>
         <section class="index">
             <div class="container">
-                <a href="accueil.html">
-                    <div class="french-flag">
-                        <img class="flag" src="assets/img/img-site/french-flag.gif" alt="drapeau Français" title="site en langue Française - French language site">
-                        <p class="p-french">langue Française</p>
-                        <p class="p-english">french language</p>
-                    </div>
-                </a>
-                <a href="welcome.html">
-                    <div class="english-flag">
-                        <img class="flag" src="assets/img/img-site/british-flag.gif" alt="drapeau Anglais" title="British language site - site en langue Anglaise">
-                        <p class="p-flag-french">langue Anglaise</p>
-                        <p class="p-flag-english">English language</p>
-                    </div>
-                </a>
+                <div>
+                    <img id="playVideo" class="french-flag" src="assets/img/img-site/french-flag.gif" alt="drapeau Français" title="site en langue Française - French language site">
+                    <p class="p-french-haut">langue Française</p>
+                    <p class="p-english-bas">french language</p>
+            
+                    <video id="myVideo" controls>
+                        <source src="assets/movies/bienvenue-assosciation-maman-esther.mp4" type="video/mp4">
+                    </video>
+                    
+                </div>
+                <div>
+                    <img id="playVideo" class="english-flag" src="assets/img/img-site/british-flag.gif" alt="drapeau Anglais" title="British language site - site en langue Anglaise">
+                    <p class="p-english-haut">langue Anglaise</p>
+                    <p class="p-french-bas">English language</p>
+
+                    <video id="myVideo" controls>
+                        <source src="assets/movies/welcome-association-maman-esther.mp4" type="video/mp4">
+                    </video>
+
+                    <div id="loadingSpinner" class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+                </div>
                 <div class="background-img">
                     <h2>association</h2>
                     <h1>maman esther</h1>
@@ -40,5 +48,7 @@
                 </div>
             </div>
         </section>
+        
+        <script src="assets/js/video.js"></script>
 </body>
 </html>
