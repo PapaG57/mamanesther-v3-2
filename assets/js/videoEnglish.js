@@ -11,6 +11,6 @@ playVideo.addEventListener("click", function() {
 video.addEventListener("ended", function() {
     loadingSpinner.style.display = "block";
     setTimeout(function() {
-        window.location.href = "accueil.html"; // Remplacez l'URL par celle de la page web vers laquelle vous souhaitez être redirigé.
+        window.location.href = "accueil.html";
     }, 2000); // 2 secondes de délai avant la redirection
 });

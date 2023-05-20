@@ -271,7 +271,7 @@ video {
     width: 6px;
     height: 18px;
     border-radius: 20%;
-    background: #000;
+    background: #01ff16;
 }
 
 .lds-spinner div:nth-child(1) {
