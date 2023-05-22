@@ -9,47 +9,52 @@
     <title>Accueil - Association Maman Esther</title>
 </head>
 <body>
-        <section class="index">
-            <div class="container">
-                <div>
-                    <img id="playVideoFrench" class="french-flag" src="assets/img/img-site/french-flag.gif" alt="drapeau Français" title="site en langue Française - French language site">
-                    <p class="p-french-haut">langue Française</p>
-                    <p class="p-english-bas">french language</p>
-            
-                    <video id="myVideoFrench">
-                        <source src="assets/movies/bienvenue-assosciation-maman-esther.mp4" type="video/mp4">
-                    </video>
-                    
+    <section class="index">
+        <div class="container">
+            <!-- FRENCH FLAG CHOICE -->
+            <img id="playButton1" class="french-flag" src="assets/img/img-site/french-flag.gif" alt="drapeau Français" title="site en langue Française - French language site">
+            <p class="p-french-haut">langue Française</p>
+            <p class="p-english-bas">french language</p>
+            <div id="videoContainer1" class="video-container">
+                <video id="myVideo1" controls>
+                    <source src="assets/movies/bienvenue-assosciation-maman-esther.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- ENGLISH FLAG CHOICE -->
+            <img id="playButton2" class="english-flag" src="assets/img/img-site/british-flag.gif" alt="drapeau Anglais" title="British language site - site en langue Anglaise">
+            <p class="p-english-haut">langue Anglaise</p>
+            <p class="p-french-bas">English language</p>
+            <div id="videoContainer2" class="video-container">
+                <video id="myVideo2" controls>
+                    <source src="assets/movies/welcome-association-maman-esther.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- LOADING SPINNER -->
+                <div id="loadingSpinner" class="loading-spinner">
+                    <div class="spinner-container">
+                        <div class="spinner"></div>
+                    </div>
                 </div>
-                <div>
-                    <img id="playVideoEnglish" class="english-flag" src="assets/img/img-site/british-flag.gif" alt="drapeau Anglais" title="British language site - site en langue Anglaise">
-                    <p class="p-english-haut">langue Anglaise</p>
-                    <p class="p-french-bas">English language</p>
 
-                    <video id="myVideoEnglish">
-                        <source src="assets/movies/welcome-association-maman-esther.mp4" type="video/mp4">
-                    </video>
-
-                    <div id="loadingSpinner" class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-
-                </div>
-                <div class="background-img">
-                    <h2>association</h2>
-                    <h1>maman esther</h1>
-                    <div class="box">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                            <div class="content">
-                                <img class="img" src="assets/img/logos/Logo-Mama-Esther.webp" alt="">
-                            </div>
+            <!-- BOX LOGO ANIMATED -->
+            <div class="background-img">
+                <h2>association</h2>
+                <h1>maman esther</h1>
+                <div class="box">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="content">
+                        <img class="img" src="assets/img/logos/Logo-Mama-Esther.webp" alt="logo de l'association animé">
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
         
-        <script src="assets/js/videoFrench.js"></script>
-        <script src="assets/js/videoEnglish.js"></script>
+        <script src="assets/js/videos.js"></script>
 </body>
 </html>
