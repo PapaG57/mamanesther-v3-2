@@ -197,21 +197,20 @@
           <div class="card-chiffres-text text-uppercase">Dons</div>
           <span class="vertical-line"></span>
           <div class="card-chiffres-chiffres">10 363 €</div>
-          <a href="#dons"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a>
+          <!-- <a href="#dons"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a> -->
 
           <!-- MODALE DONS -->
-          <div id="dons" class="modal2">
-            <div class="modal2-content">
+          <p class="fw-bold fs-3"><a class="nav-link bouton-chiffre" id="dons" onclick="showOrCloseDons()"><i class="bi bi-journal-text"></i>+ de détails</a></p>
+          <div id="div-dons-to-open">
+            <div id="dons-text">
               <i class="fa fa-light fa-hand-holding-dollar fa-2x icone-dons"></i>
-              <h3 class="text-uppercase">dons en détail</h3><br>
               <p>Les dons viennent en majeur partie de personnes qui nous soutiennent, d'autres par le bouche à oreilles. Il y a également des entreprises généreuses.</p>
               <p>Nombres de donateur :<strong> 57</strong> (tout donnateurs confondus)
               <p>Moyenne des dons par personnes :<strong> 57€</strong></p>
               <p>Les dons sont tous utilisés pour la logistique concernant les enfants (nourriture, habillement, charges de la maison, soins, repas d'anniversaire, de fin d'année) Bilan en détail<a href="bilans.html"><strong class="text-uppercase blink" title="Document au format PDF à télécharger">ici</strong></a></p>
-              <button onclick="history.back()" class="modal2-close text-uppercase">fermer</button>
+              <span id="dons-close" onclick="showOrCloseDons()">Fermer</span>
             </div>
-          </div>
-        </div>
+          </div>  
       </div>
       <a href="bilans.html">
         <div id="subventions" class="card-chiffres" title="En savoir plus...">
@@ -279,7 +278,7 @@
   </section>
 
   <!-- SECTION FOOTER -->
-  <footer class="footer">
+  <!-- <footer class="footer">
     <div class="waves">
       <div class="wave" id="wave1"></div>
       <div class="wave" id="wave2"></div>
@@ -338,7 +337,9 @@
       <span>All right Reserved</span>
       <p class="text-center" ><em>Footer Made by Nadine Coelho | All Rights Reserved<br><a class="text-body-secondary" href="https://alvarotrigo.com/blog/website-footers/">https://alvarotrigo.com/blog/website-footers/</a></em></p>
     </div>
-  </footer>
+  </footer> -->
+
+  <script src="assets/js/closeWindows.js"></script>
 
 </body>
 </html>
