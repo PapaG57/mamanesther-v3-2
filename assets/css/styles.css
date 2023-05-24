@@ -2,10 +2,11 @@
 				/******* CODE GéNéRAL ******/
 /*------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://fonts.googleapis.com/css?family=Allerta+Stencil);
-@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url('http://fonts.googleapis.com/css?family=Varela+Round');
+@import url('http://fonts.googleapis.com/css?family=Lato');
+@import url('http://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('http://fonts.googleapis.com/css?family=Raleway:300');
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@200 & display=swap');
 
 body {
 	margin: 0;
@@ -515,7 +516,7 @@ nav ul li a:hover {
 	display: flex;
 	align-items: center;
 	margin-right: 2rem;
-	border: 2px solid #0ebcf1;
+	border: 3px solid #0ebcf1;
 	border-radius: 2rem;
 	width: 550px;
 	height: 80px;
@@ -564,61 +565,7 @@ margin-left: 45px;
 	box-shadow: 5px 5px 5px #bebebe;
 }
 
-#div-mentions-to-open {
-    display: none;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 100%;
-    font-family: "Redressed", cursive;
-    font-size: 15px;
-    font-weight: normal;
-    text-align: center;
-    z-index: 2;
-}
-
-#div-dons-to-open > #dons-text {
-    background-color: #dedede;
-    width: 80%;
-    max-width: 800px;
-    max-height: 90%;
-    color: black;
-    text-align: left;
-    padding: 10px;
-    border: 2px #fff solid;
-    border-radius: 10px;
-    margin: 0 0 5px 0;
-}
-
-#div-dons-to-open > #dons-text > #dons-title {
-    text-align: center;
-}
-
-#div-dons-to-open > #dons-close {
-    cursor: pointer;
-    width: 100px;
-    background: #4B8;
-    color: #fff;
-    font-size: 20px;
-    font-family: "Redressed", cursive;
-    border: 2px #fff solid;
-    border-radius: 10px;
-    margin: 0;
-    transition: 0.5s;
-}
-
-#div-dons-to-open > #dons-close:hover {
-    background: #4B8;
-    color: #000;
-    border: 2px #000 solid;
-    }
-
-/* .modal2 {
+.modal2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -644,9 +591,9 @@ margin-left: 45px;
     text-decoration: none;
     padding: 15px;
     color: black;
-} */
+}
 
-.icone-dons {
+.icone-modale {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -658,7 +605,7 @@ margin-left: 45px;
 	border-radius: 50%;
 }
 
-/* .modal2:target {
+.modal2:target {
     visibility: visible;
     opacity: 1;
 }
@@ -688,7 +635,7 @@ margin-left: 45px;
 .modal2-close:hover {
 	background-color: #fafafa;
 	color: #0ebcf1;
-} */
+}
 
 /*------------------------------------------------------*/
 					/******* FOOTER ******/
@@ -702,16 +649,17 @@ margin-left: 45px;
 	width: 100%;
 	background: #3586ff;
 	height: 60vh;
+	font-family: 'Sources Sans Pro', sans-serif;
 }
 
 .space-footer-1,
 .space-footer-2,
 .space-footer-3 {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	flex-direction: column;
-	width: 400px;
+	width: 550px;
 	gap: 10px;
 }
 
@@ -735,31 +683,75 @@ margin-left: 45px;
 	height: 70px;
 }
 
-.social-icones {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	list-style: none;
-	margin: 10px 0;
-	flex-wrap: wrap;
-	gap: 40px;
+/******* ICONES RéSEAUX SOCIAUX *******/
+
+main {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to bottom left, #dad4ec), #f3e7e9;
 }
 
-.fa.fa-facebook,
-.fa.fa-instagram,
-.fa.fa-linkedin,
-.fa.fa-whatsapp,
-.fa.fa-youtube {
-	color: #1815ce;
+.main .button {
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+    float: left;
+    border-radius: 50px;
+    margin: 0 12px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
 }
 
-.fa.fa-facebook:hover,
-.fa.fa-instagram:hover,
-.fa.fa-linkedin:hover,
-.fa.fa-whatsapp:hover,
-.fa.fa-youtube:hover {
-	color: #0ebcf1;
+.main .button:hover {
+    width: 160px;
+}
+
+.main .button:nth-child(1) {
+    background-color: #4267b2;
+    color: #fff;
+}
+
+.main .button:nth-child(2) {
+    background-color: #0a66c2;
+    color: #fff;
+}
+
+.main .button:nth-child(3) {
+    background-color: #c4302b ;
+    color: #fff;
+}
+
+.main .button:nth-child(4) {
+    background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    color: #fff;
+}
+
+.main .button:nth-child(5) {
+    background-color: #25D366 ;
+    color: #fcfcfc;
+}
+
+.button .s-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all .03s ease-in-out;
+}
+
+.button .s-icon i {
+    font-size: 24px;
+}
+
+.button span {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .menu {
@@ -1157,6 +1149,7 @@ margin-left: 45px;
 }
 
 .content-card-bilan {
+	padding: 15px;
 	background-color: #fafafa;
 	width: 400px;
 	box-shadow: 30px 30px 30px #575656;

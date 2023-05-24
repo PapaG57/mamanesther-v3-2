@@ -189,96 +189,153 @@
 
     <!-- CARTES CHIFFRES -->
     <div class="content-all-card">
+
+      <!-- CARTE DONS -->
       <div class="card-chiffres">
         <div class="card-aligne-chiffres">
           <div class="icone-chiffres">
             <i class="fa fa-light fa-hand-holding-dollar fa-2x"></i>
           </div>
-          <div class="card-chiffres-text text-uppercase">Dons</div>
+          <div class="card-chiffres-text text-uppercase">dons</div>
           <span class="vertical-line"></span>
           <div class="card-chiffres-chiffres">10 363 €</div>
-          <!-- <a href="#dons"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a> -->
-
+          <a href="#dons"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a>
           <!-- MODALE DONS -->
-          <p class="fw-bold fs-3"><a class="nav-link bouton-chiffre" id="dons" onclick="showOrCloseDons()"><i class="bi bi-journal-text"></i>+ de détails</a></p>
-          <div id="div-dons-to-open">
-            <div id="dons-text">
-              <i class="fa fa-light fa-hand-holding-dollar fa-2x icone-dons"></i>
+          <div id="dons" class="modal2">
+            <div class="modal2-content">
+              <i class="fa fa-light fa-hand-holding-dollar fa-2x icone-modale"></i>
+              <h3 class="text-uppercase">dons en détail</h3><br>
               <p>Les dons viennent en majeur partie de personnes qui nous soutiennent, d'autres par le bouche à oreilles. Il y a également des entreprises généreuses.</p>
               <p>Nombres de donateur :<strong> 57</strong> (tout donnateurs confondus)
               <p>Moyenne des dons par personnes :<strong> 57€</strong></p>
               <p>Les dons sont tous utilisés pour la logistique concernant les enfants (nourriture, habillement, charges de la maison, soins, repas d'anniversaire, de fin d'année) Bilan en détail<a href="bilans.html"><strong class="text-uppercase blink" title="Document au format PDF à télécharger">ici</strong></a></p>
-              <span id="dons-close" onclick="showOrCloseDons()">Fermer</span>
+              <button onclick="history.back()" class="modal2-close text-uppercase">fermer</button>
             </div>
-          </div>  
+          </div>
+        </div>
       </div>
-      <a href="bilans.html">
-        <div id="subventions" class="card-chiffres" title="En savoir plus...">
-          <div class="card-aligne-chiffres">
-            <div class="icone-chiffres">
-              <i class="fa fa-sharp fa-light fa-circle-dollar-to-slot fa-2x"></i>
+
+      <!-- CARTE SUBVENTIONS -->
+      <div class="card-chiffres">
+        <div class="card-aligne-chiffres">
+          <div class="icone-chiffres">
+            <i class="fa fa-light fa-hand-holding-dollar fa-2x"></i>
+          </div>
+          <div class="card-chiffres-text text-uppercase">subventions</div>
+          <span class="vertical-line"></span>
+          <div class="card-chiffres-chiffres">3782 €</div>
+          <a href="#subventions"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a>
+          <!-- MODALE SUBVENTIONS -->
+          <div id="subventions" class="modal2">
+            <div class="modal2-content">
+              <i class="fa fa-light fa-hand-holding-dollar fa-2x icone-modale"></i>
+              <h3 class="text-uppercase">subventions en détail</h3><br>
+              <p>Les sunventions viennent en majeur partie de nos partenaires (entreprises, associations, etc.) qui nous soutiennent. Les autres subventions viennent d'organisations gouvernementales.</p>
+              <p>Les dons sont tous utilisés pour la logistique concernant les enfants (nourriture, habillement, charges de la maison, soins, repas d'anniversaire, de fin d'année) Bilan en détail<a href="bilans.html"><strong class="text-uppercase blink" title="Document au format PDF à télécharger">ici</strong></a></p>
+              <button onclick="history.back()" class="modal2-close text-uppercase">fermer</button>
             </div>
-            <div class="card-chiffres-text text-uppercase">subventions</div>
-            <span class="vertical-line"></span>
-            <div class="card-chiffres-chiffres">3782 €</div>
           </div>
         </div>
-      </a>
-      <a href="bilans.html">
-        <div id="volontaires" class="card-chiffres" title="En savoir plus...">
-          <div class="card-aligne-chiffres">
-            <div class="icone-chiffres">
-              <i class="fa fa-light fa-handshake-angle fa-2x"></i>
+      </div>
+
+      <!-- CARTE VOLONTAIRES -->
+      <div class="card-chiffres">
+        <div class="card-aligne-chiffres">
+          <div class="icone-chiffres">
+            <i class="fa fa-light fa-handshake-angle fa-2x"></i>
+          </div>
+          <div class="card-chiffres-text text-uppercase">volontaires</div>
+          <span class="vertical-line"></span>
+          <div class="card-chiffres-chiffres">12</div>
+          <a href="#volontaires"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a>
+          <!-- MODALE VOLONTAIRES -->
+          <div id="volontaires" class="modal2">
+            <div class="modal2-content">
+              <i class="fa fa-light fa-handshake-angle fa-2x icone-modale"></i>
+              <h3 class="text-uppercase">volontariat en détail</h3><br>
+              <p>Tous nos volontaires travaillent au sein de l'association.</p>
+              <p>Ces postes se trouvent tous dans la partie administrative (voir la section <strong>TEAM</strong>)<a href="equipe.html"><strong class="text-uppercase blink" title="Document au format PDF à télécharger">ici</strong></a></p>
+              <p>Ils sont très important pour le bon fonctionnement de notre association. <strong>Nous profitons de cette section pour les <u>remercier du temps et de l'application qu'ils mettent à leur tâche respective</u>.</strong></p>
+              <button onclick="history.back()" class="modal2-close text-uppercase">fermer</button>
             </div>
-            <div class="card-chiffres-text text-uppercase">volontaires</div>
-            <span class="vertical-line"></span>
-            <div class="card-chiffres-chiffres">12</div>
           </div>
         </div>
-      </a>
-      <a href="bilans.html">
-        <div id="personnel" class="card-chiffres" title="En savoir plus...">
-          <div class="card-aligne-chiffres">
-            <div class="icone-chiffres">
-              <i class="fa fa-solid fa-utensils fa-2x"></i>
+      </div>
+
+      <!-- CARTE PERSONNEL INTéRIEUR -->
+      <div class="card-chiffres">
+        <div class="card-aligne-chiffres">
+          <div class="icone-chiffres">
+            <i class="fa fa-light fa-utensils fa-2x"></i>
+          </div>
+          <div class="card-chiffres-text text-uppercase">personnel intérieur</div>
+          <span class="vertical-line"></span>
+          <div class="card-chiffres-chiffres">2 employées de maison</div>
+          <a href="#personnelInterieur"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a>
+          <!-- MODALE PESONNEL INTéRIEUR -->
+          <div id="personnelInterieur" class="modal2">
+            <div class="modal2-content">
+              <i class="fa fa-light fa-utensils fa-2x icone-modale"></i>
+              <h3 class="text-uppercase">personnel intérieur</h3><br>
+              <p>Tous nos personnels travaillent à la maison de l'association. Ils ne sont pas payés avec les moyens financiers de l'association mais par les moyens personnels de la directrice et du sous-directeur de l'association.</p>
+              <p>Ces derniers n'ont jamais souhaités que se soit l'association qui prennent en charge leur salaire afin de ne pas alourdir ses finances.</p>
+              <button onclick="history.back()" class="modal2-close text-uppercase">fermer</button>
             </div>
-            <div class="card-chiffres-text text-uppercase">personnel intérieur</div>
-            <span class="vertical-line"></span>
-            <div class="card-chiffres-chiffres">2 employées de maison</div>
           </div>
         </div>
-      </a>
-      <a href="bilans.html">
-        <div class="card-chiffres" title="En savoir plus...">
-          <div class="card-aligne-chiffres">
-            <div class="icone-chiffres">
-              <i class="fa fa-solid fa-person-shelter fa-2x"></i>
+      </div>
+
+      <!-- CARTE PERSONNEL EXTéRIEUR -->
+      <div class="card-chiffres">
+        <div class="card-aligne-chiffres">
+          <div class="icone-chiffres">
+            <i class="fa fa-light fa-person-shelter fa-2x"></i>
+          </div>
+          <div class="card-chiffres-text text-uppercase">personnel extérieur</div>
+          <span class="vertical-line"></span>
+          <div class="card-chiffres-chiffres">1 gardien/chauffeur</div>
+          <a href="#personnelExterieur"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a>
+          <!-- MODALE PESONNEL EXTéRIEUR -->
+          <div id="personnelExterieur" class="modal2">
+            <div class="modal2-content">
+              <i class="fa fa-light fa-person-shelter fa-2x icone-modale"></i>
+              <h3 class="text-uppercase">personnel extérieur</h3><br>
+              <p>Tous nos personnels travaillent à la maison de l'association. Ils ne sont pas payés avec les moyens financiers de l'association mais par les moyens personnels de la directrice et du sous-directeur de l'association.</p>
+              <p>Ces derniers n'ont jamais souhaités que se soit l'association qui prennent en charge leur salaire afin de ne pas alourdir ses finances.</p>
+              <button onclick="history.back()" class="modal2-close text-uppercase">fermer</button>
             </div>
-            <div class="card-chiffres-text text-uppercase">personnel extérieur</div>
-            <span class="vertical-line"></span>
-            <div class="card-chiffres-chiffres">1 gardien/chauffeur</div>
           </div>
         </div>
-      </a>
-        <a href="bilans.html">
-          <div id="immobilier" class="card-chiffres" title="En savoir plus...">
-            <div class="card-aligne-chiffres">
-              <div class="icone-chiffres">
-                <i class="fa fa-solid fa-house fa-2x"></i>
-              </div>
-              <div class="card-chiffres-text text-uppercase">immobilier</div>
-              <span class="vertical-line"></span>
-              <div class="card-chiffres-chiffres">3 chambres</div>
+      </div>
+
+      <!-- CARTE IMMOBILIER -->
+      <div class="card-chiffres">
+        <div class="card-aligne-chiffres">
+          <div class="icone-chiffres">
+            <i class="fa fa-light fa-house fa-2x"></i>
+          </div>
+          <div class="card-chiffres-text text-uppercase">immobilier</div>
+          <span class="vertical-line"></span>
+          <div class="card-chiffres-chiffres">3 chambres</div>
+          <a href="#immobilier"><button class="bouton-chiffres" title="Cliquez ici pour plus de détails">+ de détails</button></a>
+          <!-- MODALE PESONNEL EXTéRIEUR -->
+          <div id="immobilier" class="modal2">
+            <div class="modal2-content">
+              <i class="fa fa-light fa-house fa-2x icone-modale"></i>
+              <h3 class="text-uppercase">immobilier en détail</h3><br>
+              <p>Comme pour les personnels, l'immobilier a été entièrement financé par les fonds propres des créateurs de l'association, à savoir la directrice et le sous-directeur.</p>
+              <p>Ces derniers n'ont jamais souhaités que se soit l'association qui prenne en charge de l'immobilier afin de ne pas alourdir ses finances.</p>
+              <button onclick="history.back()" class="modal2-close text-uppercase">fermer</button>
             </div>
           </div>
-          </div>
-        </a>
-      </a>
-  </div>
+        </div>
+      </div>
+
+    </div>  
   </section>
 
   <!-- SECTION FOOTER -->
-  <!-- <footer class="footer">
+  <footer class="footer">
     <div class="waves">
       <div class="wave" id="wave1"></div>
       <div class="wave" id="wave2"></div>
@@ -313,7 +370,39 @@
         <li class="menu-item"><a class="menu-link" href="construction.html">La presse parle de nous</a></li>
         <li class="menu-item"><a class="menu-link" href="construction.html">Nos partenaires</a></li>
       </ul>
-      <div class="social-icones">
+      <div class="main">
+        <div class="button">
+            <div class="s-icon">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <span>Facebook</span>
+        </div>
+        <div class="button">
+            <div class="s-icon">
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <span>Linkedin</span>
+        </div>
+        <div class="button">
+            <div class="s-icon">
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <span>Youtube</span>
+        </div>        
+        <div class="button">
+            <div class="s-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+        </div>
+        <div class="button">
+            <div class="s-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+        </div>
+            <span>Whatsapp</span>
+        </div>
+    </div>
+      <!-- <div class="social-icones">
         <a href="#">
           <i class="fa fa-brands fa-2x fa-facebook" title="Suivez-nous sur Facebook" alt="logo Facebook"></i>
         </a>
@@ -329,7 +418,7 @@
         <a href="#">
           <i class="fa fa-brands fa-2x fa-youtube" title="Suivez-nous sur Youtube" alt="logo Youtube"></i>
         </a>
-      </div>
+      </div> -->
     </div>
     <div class="space-footer-3">
       <a href="fgdeveloppement.com"><img class="img-logo-footer" src="assets/img/logos/logo-fgdev-transparent.png" title="Visitez le site"  alt="logo du créateur du site" ></a>
@@ -337,9 +426,7 @@
       <span>All right Reserved</span>
       <p class="text-center" ><em>Footer Made by Nadine Coelho | All Rights Reserved<br><a class="text-body-secondary" href="https://alvarotrigo.com/blog/website-footers/">https://alvarotrigo.com/blog/website-footers/</a></em></p>
     </div>
-  </footer> -->
-
-  <script src="assets/js/closeWindows.js"></script>
+  </footer>
 
 </body>
 </html>
