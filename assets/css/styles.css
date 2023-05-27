@@ -25,9 +25,10 @@ body {
 }
 
 .header-titre h1 {
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 	font-size: 2.5rem;
-	color: #0ebcf1;
+	font-weight: 600;
+	color: #474141;
 }
 
 figure {
@@ -305,7 +306,7 @@ nav ul li a:hover {
 }
 
 .main-text {
-    color: #332c2c;
+    color: #474141;
     font-size: 2rem;
 }
 
@@ -315,7 +316,7 @@ nav ul li a:hover {
 }
 
 .encars-titre p {
-    color: #332c2c;
+    color: #474141;
     font-size: 1.2rem;
 	text-align: justify;
 }
@@ -545,7 +546,8 @@ nav ul li a:hover {
 .card-chiffres-chiffres {
 	padding-left: 5px;
 	font-size: 1.2rem;
-	color: #0ebcf1;
+	font-weight: 600;
+	color: #474141;
 	width: 210px;
 }
 
@@ -699,7 +701,6 @@ main {
     border-radius: 50px;
     margin: 0 12px;
     overflow: hidden;
-    cursor: pointer;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease-in-out;
 }
