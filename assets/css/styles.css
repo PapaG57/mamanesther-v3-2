@@ -1,5 +1,5 @@
 /*------------------------------------------------------*/
-				/******* CODE GéNéRAL ******/
+				/******* CODE GÉNÉRAL ******/
 /*------------------------------------------------------*/
 
 @import url('http://fonts.googleapis.com/css?family=Varela+Round');
@@ -329,7 +329,7 @@ nav ul li a:hover {
     height: 110vh;
 }
 
-/***** BANDEAU TITRE NOUVELLES  ET TéMOIGNAGES *****/
+/***** BANDEAU TITRE NOUVELLES  ET TÉMOIGNAGES *****/
 .header-text {
     display: flex;
     justify-content: center;
@@ -433,7 +433,7 @@ nav ul li a:hover {
 }
 
 /*------------------------------------------------------*/
-				/******* TéMOIGNAGES ******/
+				/******* TÉMOIGNAGES ******/
 /*------------------------------------------------------*/
 
 .temoignages {
@@ -685,7 +685,7 @@ margin-left: 45px;
 	height: 70px;
 }
 
-/******* ICONES RéSEAUX SOCIAUX *******/
+/******* ICONES RÉSEAUX SOCIAUX *******/
 
 main {
     display: grid;
@@ -1097,7 +1097,7 @@ main {
     height: 500px;
 }
 
-/******* PROJETS RéALISéS *******/
+/******* PROJETS RÉALISÉS *******/
 
 .content-projet-2 {
 	margin: 20px;
