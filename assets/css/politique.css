@@ -1416,3 +1416,29 @@ h3 {
 	font-size: 1.5rem;
 	font-weight: 900;
 }
+
+.telecharger {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.telecharger p {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.button-download {
+	padding: 10px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background: #34c3ee;
+	color: #ffffff;
+}
+
+.button-download:hover {
+	background: #ffffff;
+	color: #34c3ee;
+}
