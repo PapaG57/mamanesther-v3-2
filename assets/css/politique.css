@@ -1389,3 +1389,30 @@ main {
     background-positon-x: 0px;
 	}
 }
+
+/*------------------------------------------------------*/
+			/****** PAGE POLITIQUE				   ******/
+/*------------------------------------------------------*/
+
+.confidentialite {
+	height: 120vh;
+}
+
+.text-politique {
+	margin-top: 40px;
+	padding: 40px;
+	background-color: #fafafa;
+	width: 100%;
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.3rem;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 900;
+}

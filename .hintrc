@@ -32,6 +32,7 @@
       }
     ],
     "button-type": "off",
-    "axe/parsing": "off"
+    "axe/parsing": "off",
+    "disown-opener": "off"
   }
 }
