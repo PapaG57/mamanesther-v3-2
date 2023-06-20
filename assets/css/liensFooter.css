@@ -1442,3 +1442,24 @@ h3 {
 	background: #ffffff;
 	color: #34c3ee;
 }
+
+/*------------------------------------------------------*/
+			/****** PAGE MENTIONS LÉGALES		   ******/
+/*------------------------------------------------------*/
+
+.modalMentions {
+	display: none;
+	/* Styles de la modale */
+}
+
+.modalMentions:target {
+	display: block;
+	/* Styles pour afficher la modale */
+}
+
+.modalMentions a {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	/* Styles pour le lien "Fermer" dans la modale */
+}
