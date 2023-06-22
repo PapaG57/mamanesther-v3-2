@@ -1208,6 +1208,11 @@ main {
 	gap: 10px;
 }
 
+.space-footer-2 {
+	border-left: 2px solid #0041a1;
+	border-right: 2px solid #0041a1;
+}
+
 .titre-footer {
 	color: #fff;
 }
@@ -1444,7 +1449,7 @@ h3 {
 }
 
 /*------------------------------------------------------*/
-			/****** PAGE MENTIONS LÉGALES		   ******/
+			/****** MODALE MENTIONS LÉGALES		   ******/
 /*------------------------------------------------------*/
 
 .modal {
@@ -1463,15 +1468,14 @@ h3 {
 	text-align: justify;
 }
 
-
 .modal-content {
 	position: relative;
     background-color: #fafafa;
 	border-radius: 5px;
 	border: solid 1px #332c2c;
     padding: 15px;
-    width: 600px;
-	height: 420px;
+    width: 800px;
+	height: 700px;
     max-width: 90%;
 }
 
@@ -1507,7 +1511,7 @@ h3 {
 .modal-close {
     position: absolute;
     left: 45%;
-    bottom: -10%;
+    bottom: -5%;
     background-color: #0ebcf1;
 	border-radius: 5px;
     color: #fff;
@@ -1528,4 +1532,16 @@ h3 {
 
 .a-modal:hover {
 	color: #000000;
+}
+
+.p-modal {
+	font-size: .9rem;
+}
+
+.h4-modal {
+	font-size: 1.2rem;
+}
+
+.strong-modal {
+	color: #0ebcf1;
 }

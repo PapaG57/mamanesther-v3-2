@@ -853,6 +853,104 @@ main {
 }
 
 /*------------------------------------------------------*/
+			/****** MODALE MENTIONS LÉGALES		   ******/
+/*------------------------------------------------------*/
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	opacity: 0;
+    background-color: rgba(12, 12, 12, 0.7);
+    transition: .8s;
+	text-align: justify;
+}
+
+.modal-content {
+	position: relative;
+    background-color: #fafafa;
+	border-radius: 5px;
+	border: solid 1px #332c2c;
+    padding: 15px;
+    width: 800px;
+	height: 700px;
+    max-width: 90%;
+}
+
+.modal h3 {
+	color: #0ebcf1;
+	letter-spacing: 4px;
+	margin-left: 100px;
+}
+
+.modal a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+.icone-modale {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	color: #0ebcf1;
+	margin-bottom: 10px;
+	border: solid 2px #0ebcf1;
+	border-radius: 50%;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-close {
+    position: absolute;
+    left: 45%;
+    bottom: -5%;
+    background-color: #0ebcf1;
+	border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+	font-weight: 900;
+}
+
+.modal-close:hover {
+	background-color: #fafafa;
+	color: #0ebcf1;
+}
+
+.a-modal {
+	color: #ffffff;
+	font-size: 1.2rem;
+	margin-left: 10px;
+}
+
+.a-modal:hover {
+	color: #000000;
+}
+
+.p-modal {
+	font-size: .9rem;
+}
+
+.h4-modal {
+	font-size: 1.2rem;
+}
+
+.strong-modal {
+	color: #0ebcf1;
+}
+
+/*------------------------------------------------------*/
 				/****** PAGE TEAM ******/
 /*------------------------------------------------------*/
 
