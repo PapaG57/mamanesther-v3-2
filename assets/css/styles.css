@@ -665,6 +665,11 @@ margin-left: 45px;
 	gap: 10px;
 }
 
+.space-footer-2 {
+	border-left: 2px solid #0041a1;
+	border-right: 2px solid #0041a1;
+}
+
 .titre-footer {
 	color: #fff;
 }
