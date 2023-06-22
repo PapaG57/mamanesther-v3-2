@@ -1066,7 +1066,7 @@ main {
 	transition: width 0.1s ease 0.2s, height 0.1s ease 0.3s, visibility 0s 0.2s;
 }
 
-		/******* MODALE *******/
+		/******* MODALE TEAM *******/
 
 .modal {
     display: flex;
@@ -1119,14 +1119,13 @@ main {
     background-color: #fafafa;
     padding: 15px;
     width: 700px;
-	height: 600px;
-    max-width: 90%;
+	height: 700px;
 }
 
 .modal-close {
     position: absolute;
     left: 45%;
-    bottom: -10%;
+    bottom: -5%;
     background-color: #0ebcf1;
 	border-radius: 5px;
     color: #fff;
