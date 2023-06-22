@@ -139,7 +139,7 @@
     </section>
 
     <!-- SECTION FOOTER -->
-    <footer class="footer">
+<footer class="footer">
     <div class="waves">
     <div class="wave" id="wave1"></div>
     <div class="wave" id="wave2"></div>
@@ -167,7 +167,7 @@
     <div class="space-footer-2">
     <ul class="menu">
         <li class="menu-item page-courante" href="/liens-footer/politique.html">Politique de confidentialité</li>
-        <li class="menu-item"><a class="menu-link" href="#modalMentions">Mentions légales</a></li>
+        <li class="menu-item"><a class="a-modal" href="#" class="modal-trigger" data-modal="modal">Mentions légales</a></li>
         <li class="menu-item"><a class="menu-link" href="/construction.html">Nous contacter</a></li>
         <li class="menu-item"><a class="menu-link" href="/construction.html">Nos services</a></li>
         <li class="menu-item"><a class="menu-link" href="/team.html">Rejoindre l'association</a></li>
@@ -175,11 +175,15 @@
         <li class="menu-item"><a class="menu-link" href="/construction.html">Nos partenaires</a></li>
     </ul>
 
-    <div class="modalMentions" id="modalMentions">
-        <!-- Contenu de la modale  -->
-        <h2>MENTIONS LÉGALES</h2>
-        <p>Contenu de la modale 1.</p>
-        <a href="#">Fermer</a>
+    <div class="modal-overlay"></div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <!-- Contenu de la modale 1 -->
+            <h2>Modale 1</h2>
+            <p>Contenu de la modale 1.</p>
+            <button class="modal-close">Fermer</button>
+        </div>
     </div>
 
     <div class="main">
@@ -237,6 +241,8 @@
     <p class="text-center" ><em>Footer Made by Nadine Coelho | All Rights Reserved<br><a class="text-body-secondary" href="https://alvarotrigo.com/blog/website-footers/">https://alvarotrigo.com/blog/website-footers/</a></em></p>
     </div>
 </footer>
+
+<script src="/assets/js/modaleMentions.js"></script>
 
 </body>
 </html>
