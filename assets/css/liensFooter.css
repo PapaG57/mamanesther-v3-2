@@ -1551,4 +1551,46 @@ h3 {
 
 .contact {
 	height: 100vh;
+	margin-top: 90px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('/assets/img/img-site/contact.jpg') center center fixed no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 20px;
 }
+
+.all-form {
+	display: flex;
+	gap: 40px;
+}
+
+.titre-contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	background-color: transparent;
+	backdrop-filter: blur(30px);
+}
+
+.titre-contact H1 {
+	color: #fafafa;
+	font-size: 3rem !important;
+	text-transform: uppercase;
+}
+
+.text-contact {
+	text-align: start;
+}
+
+.strong-contact {
+	color: #ff0000;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 400px;
+}
+
