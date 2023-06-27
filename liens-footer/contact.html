@@ -27,7 +27,7 @@
             <li><a href="/bilans.html">bilans</a></li>
             <li><a href="/construction.html">faire un don</a></li>
             <li><a href="/construction.html">à propos</a></li>
-            <li><a href="/construction.html">contact</a></li>
+            <li class="page-courante">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -37,21 +37,37 @@
         <div class="titre-contact">
             <h1>contact</h1>
         </div>
-            <p class="text-contact">
-            vous pouvez nous joindre en remplissant ce formulaire. Nous vous répondrons rapidement. Toutes les <strong>*</strong> sont obligatoires</p>
+        <div class="text-contact">
+            <p>vous pouvez nous joindre en remplissant ce formulaire. Nous vous répondrons rapidement. Toutes les <strong>*</strong> sont obligatoires</p>
             <p><strong class="strong-contact"> Nous vous garantissons que vos données ne seront pas transmises à des tiers (voir notre politique de confidentialité.)</strong></p><br>
-        <div class="all-form">
-            <form action="traitement.php" method="post">
-                <div class="form">
-                    <label for="entree-nom" class="form-label">Votre nom<strong>*</strong></label>
-                    <input type="text" name="nom" placeholder="votre nom">
-                </div><br>
-                <div class="form">
-                    <label for="entree-nom" class="form-label">Votre prénom<strong>*</strong></label>
-                    <input type="text" name="prenom" placeholder="votre prénom">
-                </div>
-            </form>
         </div>
+        <div class="all-form">
+            <div class="col1">
+                <form action="traitement.php" method="post">
+                    <div class="form">
+                        <label for="entree-nom" class="form-label">Votre nom<strong>*</strong></label>
+                        <input type="text" name="nom" id="nom" placeholder="MARTIN">
+                    </div><br>
+                    <div class="form">
+                        <label for="entree-prenom" id="prenom" class="form-label">Votre prénom<strong>*</strong></label>
+                        <input type="text" name="prenom" placeholder="Paul">
+                    </div><br>
+                    <div class="form">
+                        <label for="entree-mail" id="mail" class="form-label">Votre email<strong>*</strong></label>
+                        <input type="mail" name="mail" placeholder="example@email.com">
+                    </div><br>
+            </div>
+            <div class="col2">
+                <div class="form">
+                    <label for="entree-text" class="form-label">votre texte<strong>*</strong></label>
+                    <textarea type="text" name="textarea" id="textarea" placeholder="ici votre texte" cols="40" rows="8"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="place-button">
+            <button type="submit" class="button-contact">envoyer</button>
+        </div>
+
     </section>
 
     <!-- MODALE MENTIONS LÉGALES -->
