@@ -329,7 +329,7 @@ nav ul li a:hover {
     height: 110vh;
 }
 
-/***** BANDEAU TITRE NOUVELLES  ET TÉMOIGNAGES *****/
+/***** BANDEAU TITRE NOUVELLES ET TÉMOIGNAGES *****/
 .header-text {
     display: flex;
     justify-content: center;
@@ -433,7 +433,7 @@ nav ul li a:hover {
 }
 
 /*------------------------------------------------------*/
-/*******				 TÉMOIGNAGES			   ******/
+/*******		    	 TÉMOIGNAGES			   ******/
 /*------------------------------------------------------*/
 
 .temoignages {
@@ -795,6 +795,8 @@ main {
 .footer span {
 	color: #fff;
 }
+
+/******* VAGUES FOOTER *******/
 
 .wave {
 	position: absolute;
