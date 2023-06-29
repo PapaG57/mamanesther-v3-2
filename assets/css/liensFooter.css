@@ -499,13 +499,13 @@ h3 {
 }
 
 /*------------------------------------------------------*/
-/****** 				PAGE  CONTACT			   ******/
+/****** 				PAGE CONTACT			   ******/
 /*------------------------------------------------------*/
 
 .contact {
 	height: 100vh;
 	margin-top: 90px;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('/assets/img/img-site/contact.jpg') center center fixed no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('/assets/img/img-site/contact.webp') center center fixed no-repeat;
 	background-size: cover;
 	color: #fff;
 	padding: 20px;
@@ -585,3 +585,33 @@ input, textarea {
 /****** 				PAGE SERVICES			   ******/
 /*------------------------------------------------------*/
 
+.services {
+	margin-top: 100px;
+	height: 175vh;
+}
+
+.card-services {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 50px;
+	margin-left: 80px;
+	background-color: #fafafa;
+	width: 90%;
+	height: 300px;
+	border-radius: 5px;
+}
+
+.text-services {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 800px;
+	color: #332c2c;
+	text-align: justify;
+}
+
+.image-services {
+	width: 400px;
+	border-radius: 5px;
+}
